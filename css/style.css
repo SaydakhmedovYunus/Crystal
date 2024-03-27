@@ -290,5 +290,124 @@ p {
     font-size: calc(1vw + 13px);
     line-height: 29.4px;
 }
-
 /* vjq  */
+
+
+/* //Начало */
+.developer_wrapper {
+    margin-top: calc(10.7vw + 23px);
+    margin-bottom: calc(11.1vw + 18px);
+    padding-left: calc(10.7vw - 17px);
+}
+
+.developer_title {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: calc(2.6vw + 24px);
+    font-weight: 500;
+    line-height: 68.32px;
+}
+
+.developer_info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.primary {
+    margin-top: calc(7.7vw - 9px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(10vw - 7px);
+}
+
+.secondary {
+    margin-top: calc(2.43vw + 20px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(10vw - 7px);
+}
+
+/* .intro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: calc(1vw + 5px);
+} */
+.intro_1 {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: calc(8vw + 298px);
+gap: calc(1vw + 6px);
+}
+.intro_2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(11vw + 286px);
+    gap: calc(1vw + 5px);
+}
+.intro_3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(11vw + 286px);
+    gap:calc(1vw + 5px);
+}
+.intro_4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(11vw + 286px);
+    gap: calc(1vw + 5px);
+}
+.intro_title_1 {
+    font-size: calc(1vw + 14px);
+    font-weight: 600;
+    line-height: 37.8px;
+}
+.intro_title_2 {
+    max-width: calc(11vw + 286px);
+    font-size: calc(1vw + 14px);
+    font-weight: 600;
+    line-height: 37.8px;
+}
+.intro_text_1 {
+    font-size: calc(1vw + 14px);
+    font-weight: 400;
+    line-height: 37.8px;
+}
+
+.intro_text_2 {
+    width: calc(8vw + 298px);
+    font-size: calc(1vw + 14px);
+    font-weight: 400;
+    line-height: 37.8px;
+}
+
+.intro_title_3 {
+    font-size: calc(1vw + 14px);
+    font-weight: 600;
+    line-height: 37.8px;
+
+}
+
+.intro_title_4 {
+    font-size: calc(1vw + 14px);
+    font-weight: 600;
+    line-height: 37.8px;
+}
+
+.intro_text_3 {
+    font-size: calc(1vw + 14px);
+    font-weight: 400;
+    line-height: 37.8px;
+}
+
+.intro_text_4 {
+    font-size: calc(1vw + 14px);
+    font-weight: 400;
+    line-height: 37.8px;
+}
