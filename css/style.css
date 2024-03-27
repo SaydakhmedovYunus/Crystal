@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.introduction_wrapper {
+    background-image: url(../img/html_css_js.png);
+    background-repeat: no-repeat;
+    background-position: top calc(4.9vw + 59px) right calc(6.1vw - 20px);
+    background-size: calc(23.8vw + 89px);
+}
+
+section {
+    padding-left: calc(10.8vw - 17px);
+}
+
+.introduction_wrapper {
+    padding-top: calc(0.3vw + 41px);
+}
+
+.tehnikum_logo {
+    width: calc(8.8 + 181px);
+    height: calc(1vw + 25px);
+}
+
+.course_data {
+    margin-top: calc(6.2vw + 4px);
+    margin-bottom: calc(3vw + 36px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(14.4vw - 24px);
+}
+
+.courseInfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-family: 'TT Hoves';
+    font-size: calc(0.5vw + 13px);
+    line-height: 29.4px;
+}
+
+.value {
+    font-family: 'TT Hoves';
+    font-size: calc(0.5vw + 24px);
+    font-weight: 700;
+    line-height: 22.4px;
+}
+
+h1 {
+    margin-top: calc(3vw + 36px);
+    font-family: 'Chava';
+    font-size: calc(4.1vw + 26px);
+    line-height: 88px;
+}
+
+p {
+    margin-top: calc(2vw + 11px);
+    font-family: 'TT Hoves';
+    font-size: calc(1vw + 14px);
+    font-weight: 380;
+    line-height: 140%;
+}
+
+.introduction_buttons {
+    margin-top: calc(0.1vw + 18px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(1.1vw + 15px);
+}
+
+.purple_button {
+    width: 328px;
+    height: 61px;
+    background-color: #6E3ABA;
+    border-radius: 12px;
+    font-family: 'TT Hoves';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.2px;
+    text-align: center;
+    color: white;
+    border: 0;
+}
+
+.white_button {
+    width: 328px;
+    height: 61px;
+    border: 1px solid #6E3ABA;
+    background-color: white;
+    border-radius: 12px;
+    font-family: 'TT Hoves';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.2px;
+    text-align: center;
+    color: #6E3ABA;
+}
+
+.section_of_emojies {
+    margin-top: calc(11vw + 18px);
+}
+
+.course_description {
+    font-family: 'TT Hoves' sans-serif;
+    width: calc(48vw + 145px);
+    font-size: calc(2.7vw + 24px);
+    font-weight: 500;
+    line-height: 68.32px;
+}
+
+.students_wrapper {
+    margin-top: calc(5.5vw + 19px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(3.3vw + 27px);
+}
+
+.students {
+    flex-basis: 450px;
+    /* Размер основной оси горизонтальной это и есть ширина (относительно этого базового размера (элементы) (контейнеры) уменьшаются или же растут)*/
+    flex-grow: 1;
+    /* Детям можно будет увеличивыться если будет место */
+}
+
+.students img {
+    width: calc(3.3vw + 167px);
+}
+
+.students h4 {
+    margin-top: calc(1vw + 8px);
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(1vw + 14px);
+    font-weight: 600;
+    line-height: 37.8px;
+}
+
+.students p {
+    margin-top: calc(1.1vw + 6px);
+    font-family: 'TT Hoves';
+    font-size: calc(1vw + 14px);
+    line-height: 37.8px;
+}
+
+.timer_wrapper {
+
+    padding: 0;
+    margin-top: calc(11vw + 18px);
+    padding-top: calc(4.4vw + 23px);
+    background-color: #6E3ABA;
+}
+
+.discount_title {
+    font-family: 'TT Hoves';
+    font-size: calc(1.9vw + 26px);
+    font-weight: 700;
+    line-height: 61.26px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.timer_blocks {
+    margin-top: calc(4vw + 4px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: calc(6.4vw + 8px);
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(18vw + 19px);
+}
+
+.blocks_hours {
+    font-family: 'Chava';
+    font-size: calc(12vw + 12px);
+    line-height: 107%;
+    text-align: left;
+    color: #2F1D4E;
+}
+
+.blocks_date {
+    font-family: 'TT Hoves';
+    font-size: calc(1.8vw + 3px);
+    font-weight: 500;
+    line-height: 31.81px;
+    text-align: center;
+    color: #2F1D4E;
+}
+
+.whiteCenter {
+    margin-left: calc(53vw - 175px);
+    margin-top: calc(4vw + 5px);
+    margin-bottom: calc(5.1vw + 21px);
+    width: calc(1vw + 329px);
+    padding: 20px 0px 20px 0px;
+    gap: 10px;
+    border-radius: 12px;
+    font-family: 'TT Hoves';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.2px;
+    background-color: #FFFFFF;
+    background: none white;
+    border: 0;
+    color: #6E3ABA;
+}
+
+/* 4 экран */
+.legendary_section {
+    margin-top: calc(11vw + 18px);
+    padding-left: calc(10.8vw - 17px);
+}
+
+.legendary_section h2 {
+    font-family: 'TT Hoves';
+    font-size: calc(2.6vw + 24px);
+    font-weight: 500;
+    line-height: 68.32px;
+}
+
+.main_container {
+
+    margin-top: calc(5.5vw + 19px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(3.4vw + 7.155px);
+}
+
+.legendImg {
+    width: calc(7.7vw + 299px);
+    max-width: calc(24vw + 247px);
+}
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: calc(24vw + 247px);
+}
+
+.top_side {
+    width: calc(24vw + 247px);
+}
+
+.top_side .yuriy {
+    margin-top: 0;
+    font-family: 'TT Hoves';
+    font-size: calc(1.1vw + 33px);
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.top_side p {
+    font-family: 'TT Hoves';
+    font-size: calc(1vw + 14px);
+
+}
+
+.down_side {
+    margin-top: calc(5.5vw + 19px);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: calc(8.8vw - 23px);
+    gap: calc(8.8vw - 23px);
+}
+
+.block {
+    width: calc(10vw + 100px);
+}
+
+.block img {
+    width: calc(1vw + 34px);
+}
+
+.block p {
+    font-family: 'TT Hoves';
+    font-size: calc(1vw + 13px);
+    line-height: 29.4px;
+}
+
+/* vjq  */
