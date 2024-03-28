@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'TT Hoves';
+    src: url(../fonts/TTHoves-Black.eot);
+  }
 * {
     padding: 0;
     margin: 0;
@@ -39,13 +43,13 @@ section {
 }
 
 .title {
-    font-family: 'TT Hoves';
+    font-family: 'TT Hoves' sans-serif;
     font-size: calc(0.5vw + 13px);
     line-height: 29.4px;
 }
 
 .value {
-    font-family: 'TT Hoves';
+    font-family: 'TT Hoves' sans-serif;
     font-size: calc(0.5vw + 24px);
     font-weight: 700;
     line-height: 22.4px;
@@ -107,7 +111,7 @@ p {
 }
 
 .course_description {
-    font-family: 'TT Hoves' sans-serif;
+    font-family: 'TT Hoves';
     width: calc(48vw + 145px);
     font-size: calc(2.7vw + 24px);
     font-weight: 500;
@@ -230,7 +234,6 @@ p {
 }
 
 .main_container {
-
     margin-top: calc(5.5vw + 19px);
     display: flex;
     flex-direction: row;
@@ -247,6 +250,7 @@ p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    gap: calc(1vw + 5px);
     max-width: calc(24vw + 247px);
 }
 
@@ -269,12 +273,12 @@ p {
 }
 
 .down_side {
-    margin-top: calc(5.5vw + 19px);
+    /* margin-top: calc(5.5vw + 19px); */
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: calc(8.8vw - 23px);
-    gap: calc(8.8vw - 23px);
+    /* gap: calc(8.8vw - 23px); */
 }
 
 .block {
@@ -290,6 +294,7 @@ p {
     font-size: calc(1vw + 13px);
     line-height: 29.4px;
 }
+
 /* vjq  */
 
 
@@ -336,12 +341,13 @@ p {
     gap: calc(1vw + 5px);
 } */
 .intro_1 {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-width: calc(8vw + 298px);
-gap: calc(1vw + 6px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(8vw + 298px);
+    gap: calc(1vw + 6px);
 }
+
 .intro_2 {
     display: flex;
     flex-direction: column;
@@ -349,13 +355,15 @@ gap: calc(1vw + 6px);
     width: calc(11vw + 286px);
     gap: calc(1vw + 5px);
 }
+
 .intro_3 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: calc(11vw + 286px);
-    gap:calc(1vw + 5px);
+    width: calc(8vw + 298px);
+    gap: calc(1vw + 5px);
 }
+
 .intro_4 {
     display: flex;
     flex-direction: column;
@@ -363,17 +371,20 @@ gap: calc(1vw + 6px);
     width: calc(11vw + 286px);
     gap: calc(1vw + 5px);
 }
+
 .intro_title_1 {
     font-size: calc(1vw + 14px);
     font-weight: 600;
     line-height: 37.8px;
 }
+
 .intro_title_2 {
     max-width: calc(11vw + 286px);
     font-size: calc(1vw + 14px);
     font-weight: 600;
     line-height: 37.8px;
 }
+
 .intro_text_1 {
     font-size: calc(1vw + 14px);
     font-weight: 400;
@@ -411,3 +422,4 @@ gap: calc(1vw + 6px);
     font-weight: 400;
     line-height: 37.8px;
 }
+
