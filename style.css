@@ -8,7 +8,7 @@
 }
 
 .introduction_wrapper {
-    background-image: url(../img/html_css_js.png);
+    background-image: url(./img/html_css_js.png);
     background-repeat: no-repeat;
     background-position: top calc(4.9vw + 59px) right calc(6.1vw - 20px);
     background-size: calc(23.8vw + 89px);
