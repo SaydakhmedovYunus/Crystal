@@ -425,3 +425,30 @@ p {
 }
 
 /* fake tt */
+
+/* popUpMenu */
+.popUpForm {
+    background-color:rgba(0,0,0, 0.305);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;/* родителю */
+    align-items: center; /*детям */
+}
+.popUpForm form {
+    padding: 20px 60px;
+    background-color: white;
+}
+.popUpForm input /*,.popUpForm label */{ 
+    display: block;
+}
+.popUpForm label {
+    display: block;
+    margin-bottom: 20px;
+}
+.close {
+    text-align: right;
+}
