@@ -533,6 +533,7 @@ p {
 .courseProgram_wrapper .purple_button {
     display: block;
     margin: 34px auto 0;
+    margin-bottom: 20px;
 }
 
 .courseProgram .purple_button.btnMob {
@@ -554,4 +555,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+.courseProgram_wrapper ol {
+    margin-bottom: 20px;
 }
