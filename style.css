@@ -538,6 +538,7 @@ p {
 .courseProgram .purple_button.btnMob {
     display: none;
 }
+
 @media(max-width: 545px) {
     .courseProgram_wrapper .purple_button {
         display: none;
