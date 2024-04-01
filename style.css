@@ -191,7 +191,7 @@ p {
     font-size: calc(12vw + 12px);
     line-height: 107%;
     text-align: left;
-    color: #2F1D4E;
+    color:#26183F;
 }
 
 .blocks_date {
@@ -200,7 +200,7 @@ p {
     font-weight: 500;
     line-height: 31.81px;
     text-align: center;
-    color: #2F1D4E;
+    color:#26183F;
 }
 
 .whiteCenter {
