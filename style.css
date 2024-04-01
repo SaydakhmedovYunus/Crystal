@@ -631,6 +631,7 @@ p {
     }
 
 }
+
 .frelance_wrapper {
     margin-top: calc(10.7vw + 23px);
     padding-left: calc(10.8vw - 17px);
@@ -638,14 +639,16 @@ p {
     flex-direction: column;
     gap: calc(2.2vw + 12px)
 }
+
 .frelance_wrapper h1 {
     margin-top: 0;
-font-family: 'TT Hoves';
-font-size: calc(2.6vw + 24px);
-font-weight: 500;
-line-height: 68.32px;
-letter-spacing: 0.01em;
+    font-family: 'TT Hoves';
+    font-size: calc(2.6vw + 24px);
+    font-weight: 500;
+    line-height: 68.32px;
+    letter-spacing: 0.01em;
 }
+
 .frelance_wrapper p {
     margin-top: 0;
     font-family: 'TT Hoves';
@@ -653,10 +656,12 @@ letter-spacing: 0.01em;
     font-weight: 400;
     line-height: 37.8px;
 }
+
 .frelance_img_wrapper {
     margin-top: calc(1.7vw + 13px);
     width: calc(81vw + 23px);
 }
+
 .frelance_img_wrapper img {
     width: calc(81vw + 23px);
 }
@@ -665,6 +670,7 @@ letter-spacing: 0.01em;
     margin-top: calc(10.7vw + 23px);
     padding-left: calc(10.8vw - 17px);
 }
+
 .title_gif h1 {
     font-family: 'TT Hoves';
     font-size: 58px;
@@ -673,6 +679,7 @@ letter-spacing: 0.01em;
     letter-spacing: 0.01em;
     margin-top: 0;
 }
+
 .main_box {
     margin-top: 30px;
     display: flex;
@@ -680,31 +687,37 @@ letter-spacing: 0.01em;
     flex-wrap: wrap;
     /* gap: calc(2.2vw + 11px); */
 }
+
 .left_side_box {
-width: calc(33vw + 154px);
+    width: calc(33vw + 154px);
 }
+
 .left_side_box img {
     width: calc(33vw + 154px);
 }
+
 .right_side_box {
     padding-top: 50px;
     width: calc(21vw + 248px);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap:calc(1vw + 18px);
+    gap: calc(1vw + 18px);
 }
+
 .right_side_box h5 {
     font-family: 'TT Hoves';
     font-size: calc(1vw + 16px);
     line-height: 29.4px;
 }
+
 .right_side_box p {
     margin-top: 0;
     font-family: 'TT Hoves';
     font-size: calc(1vw + 16px);
     line-height: 29.4px;
 }
+
 .right_side_box span {
     font-family: 'TT Hoves';
     font-size: calc(1vw + 16px);
