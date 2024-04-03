@@ -732,7 +732,7 @@ p {
 
 .title_5 {
     font-family: 'TT Hoves';
-    font-size: calc(2.65vw + 24px);
+/*     font-size: calc(2.65vw + 24px); */
     font-weight: 500;
     line-height: 68.32px;
     letter-spacing: 0.01em;
