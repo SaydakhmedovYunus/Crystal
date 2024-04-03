@@ -40,7 +40,27 @@ closeBtn.addEventListener("click", closePopUp);
 function popUpForm () {
     console.log("Я работаю");
     popUpWrapper.style.display="flex";
-}
+}   
 function closePopUp() {
     popUpWrapper.style.display = "none";
 }
+//PopUp End
+document.addEventListener('DOMContentLoaded', function () {
+    new Splide('.splide', {
+        // Define breakpoints
+        breakpoints: {
+            600: {
+                perPage: 1,
+            },
+            800: {
+                perPage: 2,
+            },
+            1000: {
+                perPage: 3,
+            }
+        },
+        // Default options
+        perPage: 4,
+        type: 'loop',
+    }).mount();
+});

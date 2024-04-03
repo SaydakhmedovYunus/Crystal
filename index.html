@@ -5,19 +5,21 @@
     <meta charset="UTF-8"> <!--  // Кодировка -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Про адапатацию -->
     <meta name="description" content="Курс программировании в Ташкенте с самым лучшим учителем">
-    <meta name="keywords" content="Курс программировании в Ташкент, курс фронтенд, выучить JavaScript, js курсы"><!-- По каким ключевы словам мой сайт будут находить -->
+    <meta name="keywords" content="Курс программировании в Ташкент, курс фронтенд, выучить JavaScript, js курсы">
+    <!-- По каким ключевы словам мой сайт будут находить -->
     <meta name="robots" content="no-index, follow">
     <meta name="Bahromovoch" content="krasavchik">
     <meta property="og:title" content="Frontend-курсы">
     <meta property="og:description" content="Frontend-курсы программирования">
     <meta proprty="og:image" content="https://icons8.ru/icon/ReBXWBo7bj-u/turtle">
-    <link rel="shortcut icon" href="./img/icons8-черепаха-48.png" type="image/x-icon"> 
+    <link rel="shortcut icon" href="./img/icons8-черепаха-48.png" type="image/x-icon">
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
     <title>Crystal Landing</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.cdnfonts.com/css/chava" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/chava" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/@splidejs/splide/dist/css/splide.min.css">
 </head>
 
 <body>
@@ -202,47 +204,98 @@
             <button class="purple_button">Получить программу курса</button>
         </div>
         <button class="purple_button btnMob">Получить программу курса</button>
-</section>
-        <section class="Diplom">
-            <div class="mainDiplom">
-                <div class="info A">
-                    <img src="./img/image 1772.png" alt="">
-                </div>
-                <div class="info B">
+    </section>
+    <section class="Diplom">
+        <div class="mainDiplom">
+            <div class="info A">
+                <img src="./img/image 1772.png" alt="">
+            </div>
+            <div class="info B">
                 <h4>диплом об окончании курса</h4>
-                </div>
-        
-                <div class="info C">
-                <p>Он дополнит твое портфолио и выгодно выделит тебя на собеседовании в компанию мечты</p>
-                </div>
             </div>
-        </section>
-        <section class="frelance_wrapper">
-            <h1>Сколько может зарабатывать Веб-Верстальщик?</h1>
-            <p>По данным сайта hh.uz большие компании готовы платить начинающим Верстальщикам от 300$. Тебе лишь нужно набираться опыта и твой доход будет расти с каждым разом . А мы готовы тебе помочь в этом!</p>
-            <div class="frelance_img_wrapper">
-                <img src="./img/pic_hh.png" alt="">
-            </div>
-        </section>
-        <section class="gift_box_wrapper">
-            <div class="title_gif">
-                <h1>Кроме этого тебя ждут:</h1>
-            </div>
-            <div class="main_box">
-                <div class="left_side_box">
-                    <img src="./img/pic_student-box.png" alt="">
-                </div>
-                <div class="right_side_box">
-                    <h5>150$ от наших партнёров</h5>
-                    <p>Компьютер для каждого студента со всеми необходимыми программами</p>
-                    <span>Набор студента - приветственное письмо с ссылкой на закрытую группу, канцелярские принадлежности, стикеры и партнерские промо-коды</span>
-                </div>
-            </div>
-        </section>
-<section class="little_sliders">
 
-</section>
+            <div class="info C">
+                <p>Он дополнит твое портфолио и выгодно выделит тебя на собеседовании в компанию мечты</p>
+            </div>
+        </div>
+    </section>
+    <section class="frelance_wrapper">
+        <h1>Сколько может зарабатывать Веб-Верстальщик?</h1>
+        <p>По данным сайта hh.uz большие компании готовы платить начинающим Верстальщикам от 300$. Тебе лишь нужно
+            набираться опыта и твой доход будет расти с каждым разом . А мы готовы тебе помочь в этом!</p>
+        <div class="frelance_img_wrapper">
+            <img src="./img/pic_hh.png" alt="">
+        </div>
+    </section>
+    <section class="gift_box_wrapper">
+        <div class="title_gif">
+            <h1>Кроме этого тебя ждут:</h1>
+        </div>
+        <div class="main_box">
+            <div class="left_side_box">
+                <img src="./img/pic_student-box.png" alt="">
+            </div>
+            <div class="right_side_box">
+                <h5>150$ от наших партнёров</h5>
+                <p>Компьютер для каждого студента со всеми необходимыми программами</p>
+                <span>Набор студента - приветственное письмо с ссылкой на закрытую группу, канцелярские принадлежности,
+                    стикеры и партнерские промо-коды</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="title">Отзывы наших студентов</div>
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <div class="cartoons_wrapper">
+                        <div class="cartoons_container">
+                            <img src="./img/icon_youtube.png" alt="youtube" class="youtube_logo">
+                            <p>Я пришел в Техникум чтобы сменить профессию на front-end разработчика и окончательно
+                                расстаться с предыдущим местом работы. Пробуйте себя во всем, ничего не бойтесь и у вас
+                                всё получится!</p>
+                            <div class="people_face_container">
+                                <img src="./img/Frame 256.png" alt="face1" class="people_face">
+                                <span>Руслан Мухутдинов</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="cartoons_wrapper">
+                        <div class="cartoons_container">
+                            <img src="./img/icon_youtube.png" alt="youtube" class="youtube_logo">
+                            <p>Я выбрал курс веб-верстальщика, потому что мне это нравится и это круто. После окончания
+                                курса, за хорошую учебу, меня пригласили на стажировку в Техникум. Будущее за IT и я не
+                                жалею что выбрал эту сферу!</p>
+                            <div class="people_face_container">
+                                <img src="./img/Frame 257.png" alt="face1" class="people_face">
+                                <span>Юлдашев Искандер</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="cartoons_wrapper">
+                        <div class="cartoons_container">
+                            <img src="./img/icon_youtube.png" alt="youtube" class="youtube_logo">
+                            <p>Я увидел что Техникум всех приглашает на бесплатную лекцию по программированию. Меня это
+                                заинтересовало, после лекции я понял, что это хороший старт для карьеры. После курса я
+                                планирую дальше развиваться и двигаться вперед в этой сфере.</p>
+                            <div class="people_face_container">
+                                <img src="./img/Frame 258.png" alt="face1" class="people_face">
+                                <span>Махмудов Джахонгир</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
     <script src="./script.js"></script>
+    <script src="./node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="./slider.js"></script>
 </body>
 
 </html>
