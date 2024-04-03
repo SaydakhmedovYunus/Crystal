@@ -44,8 +44,8 @@ section {
 }
 
 .title {
-    font-family: 'TT Hoves' sans-serif;
     font-size: calc(0.5vw + 13px);
+    font-family: 'TT Hoves' sans-serif;
     line-height: 29.4px;
 }
 
@@ -730,7 +730,7 @@ p {
     padding-left: calc(10.8vw - 17px);
 }
 
-.title {
+.title_5 {
     font-family: 'TT Hoves';
     font-size: calc(2.65vw + 24px);
     font-weight: 500;
