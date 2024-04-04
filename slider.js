@@ -8,7 +8,7 @@ perMove: 1,
 splide.mount();
 
 document.addEventListener('DOMContentLoaded', function () {
-    new Splide('.splide', {
+    new splide('.splide', {
         // Define breakpoints
         breakpoints: {
             600: {
