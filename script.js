@@ -45,3 +45,27 @@ function closePopUp() {
     popUpWrapper.style.display = "none";
 }
 //PopUp End
+
+var splide = new splide( '.splide', {
+    type   : 'loop',
+    perPage: 3,
+    perMove: 1,
+    } );
+    splide.mount();
+
+    document.addEventListener('DOMContentLoaded', function () {
+        new splide('.splide', {
+            // Define breakpoints
+            breakpoints: {
+                390: {
+                    perPage: 1,
+                },
+                1285: {
+                    perPage: 4,
+                },
+            },
+            // Default options
+            perPage: 3,
+            type: 'loop',
+        }).mount();
+    });
