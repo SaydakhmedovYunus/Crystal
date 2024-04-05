@@ -805,9 +805,11 @@ text-transform: uppercase;
     margin-top: calc(5vw + 15px);
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: calc(6.29vw + 16px);
 }
 .left_cup {
+    width: calc(14.6vw + 272px);
     display: flex;
     flex-direction: column;
     gap: calc(2.2vw + 12px);
@@ -825,7 +827,28 @@ font-weight: 600;
 line-height: 37.8px;
 }
 .right_cup {
+    width: calc(14.6vw + 272px);
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.students_1 {  
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.students_1 h4 {
+font-family: 'TT Hoves';
+font-size: calc(2.65vw + 24px);
+font-weight: 700;
+line-height: 68.32px;
+letter-spacing: 0.01em;
+}
+.students_1 h5 {
+width: calc(14.6vw + 272px);
+font-family: 'TT Hoves';
+font-weight: 400;
+font-size: calc(1vw + 14px);
+line-height: 29.4px;
 }
