@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8"> <!--  // Кодировка -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Про адапатацию -->
@@ -21,7 +20,6 @@
     <link href="https://fonts.cdnfonts.com/css/chava" rel="stylesheet">
     <link rel="stylesheet" href="./node_modules/@splidejs/splide/dist/css/splide.min.css">
 </head>
-
 <body>
     <section class="introduction_wrapper">
         <img src="./img/Logo (1).png" alt="tehnikum_logo" class="tehnikum_logo">
@@ -246,7 +244,7 @@
 
     <section class="splide" aria-label="Splide Basic HTML Example">
         <div class="title_5">Отзывы наших студентов</div>
-        <div class="splide__track">
+        <div class="splide__track" class="splide">
             <ul class="splide__list">
                 <li class="splide__slide">
                     <div class="cartoons_wrapper">
@@ -293,9 +291,27 @@
             </ul>
         </div>
     </section>
+<section class=""></section>
     <script src="./script.js"></script>
     <script src="./node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
-    <script src="./slider.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', function () {
+    new Splide('.splide', {
+        // Define breakpoints
+        breakpoints: {
+            390: {
+                perPage: 1,
+            },
+            1285: {
+                perPage: 4,
+            },
+        },
+        // Default options
+        perPage: 3,
+        type: 'loop',
+    }).mount();
+});
+</script>
+<script src="./slider.js"></script>
 </body>
-
 </html>
