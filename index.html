@@ -291,9 +291,26 @@
             </ul>
         </div>
     </section>
-<section class=""></section>
+<section class="cup_wrapper">
+    <h1>Немного о нас</h1>
+    <div class="main_cup_container">
+        <div class="left_cup">
+            <img src="./img/image 1342.png" alt="winning cup">
+            <span>Резиденты IT-парка и одна из самых успешных DIGITAL-школ в Узбекистане</span>
+        </div>
+        <div class="right_cup">
+            <div class="students_1">
+                <h4>> 2500</h4>
+                <h5>выпускников</h5>
+            </div>
+            <div class="students_2">
+                <h4>10 направлений</h4>
+                <h5>обучения в сфере Digital</h5>
+            </div>
+        </div>
+    </div>
+</section>
     <script src="./script.js"></script>
-    <script src="./node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
     <script>
 document.addEventListener('DOMContentLoaded', function () {
     new Splide('.splide', {
@@ -312,6 +329,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }).mount();
 });
 </script>
-<script src="./slider.js"></script>
+<script src="./node_modules/@splidejs/splide/dist/js/splide.min.js">
+    var splide = new splide( '.splide', {
+    type   : 'loop',
+    perPage: 3,
+    perMove: 1,
+    } );
+    
+    splide.mount();
+</script>
 </body>
 </html>

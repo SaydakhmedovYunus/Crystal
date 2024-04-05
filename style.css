@@ -749,6 +749,7 @@ p {
     width: calc(1vw + 325px);
     height: 484px;
     border-radius: 12px;
+
 }
 
 .cartoons_container {
@@ -786,4 +787,45 @@ p {
     font-size: 21px;
     line-height: 29.4px;
     max-width: 100px;
+}
+
+.cup_wrapper {
+    margin-top: calc(11vw + 18px);
+    padding-left: calc(10.8vw - 17px);
+}
+.cup_wrapper h1 {
+font-family: 'TT Hoves';
+font-size: calc(2.65vw + 24px);
+font-weight: 500;
+line-height: 68.32px;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+}
+.main_cup_container {
+    margin-top: calc(5vw + 15px);
+    display: flex;
+    flex-direction: row;
+    gap: calc(6.29vw + 16px);
+}
+.left_cup {
+    display: flex;
+    flex-direction: column;
+    gap: calc(2.2vw + 12px);
+}
+.left_cup img {
+    width: 110px;
+    height: 110px;
+}
+.left_cup span {
+width: calc(10.8vw + 287px);
+height: 114px;
+font-family: 'TT Hoves';
+font-size: calc(1vw + 20px);
+font-weight: 600;
+line-height: 37.8px;
+}
+.right_cup {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
