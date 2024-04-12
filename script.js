@@ -45,3 +45,19 @@ function closePopUp() {
     popUpWrapper.style.display = "none";
 }
 //PopUp End
+
+
+//PopUp Start2
+let purpleBtn = document.getElementsByClassName('purple_button')[0];
+let popUpWrapper2 = document.querySelector(".popUpForm2");
+let closeBtn2 = document.querySelector(".close2");
+purpleBtn.addEventListener("click", popUpForm2);
+closeBtn2.addEventListener("click", closePopUp2)
+function popUpForm2() {
+    console.log("Я тоже работаю");
+    popUpWrapper2.style.display="flex";
+}
+function closePopUp2() {
+    popUpWrapper2.style.display = "none";
+}
+//PopUp End2
