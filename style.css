@@ -867,6 +867,7 @@ color: whitesmoke;
     padding-bottom: 44px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .youtube_logo {
@@ -878,7 +879,6 @@ color: whitesmoke;
     margin-top: 0;
     font-family: 'TT Hoves';
     font-size: 21px;
-    font-weight: 400;
     line-height: 29.4px;
 }
 
