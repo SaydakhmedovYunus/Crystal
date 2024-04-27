@@ -453,29 +453,33 @@ p {
     border-radius: 12px;
     background-color: white;
 }
+
 .form_insides {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:calc(6.7vw + 241px);
+    width: calc(6.7vw + 241px);
     height: 243px;
     gap: 30px;
 }
+
 .popUpForm h2 {
-font-family: 'TT Hoves';
-font-size: 26px;
-font-weight: 700;
-line-height: 30.63px;
-text-align: center;
+    font-family: 'TT Hoves';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.63px;
+    text-align: center;
 }
+
 .popUpForm input
+
 /*,.popUpForm label */
     {
-        width: calc(6.7vw + 241px);
-        height: 37px;
-        gap: 10px;        
+    width: calc(6.7vw + 241px);
+    height: 37px;
+    gap: 10px;
     display: block;
-    border:none;
+    border: none;
     border-bottom: 1px solid #A1A1A185;
 }
 
@@ -527,6 +531,7 @@ text-align: center;
     align-items: center;
     /*детям */
 }
+
 .popUpForm2 form {
     width: calc(52vw + 129px);
     height: 423px;
@@ -552,25 +557,28 @@ text-align: center;
     font-weight: 700;
     line-height: 30.63px;
     text-align: center;
-    }
+}
+
 .popUpForm2 p {
     font-family: 'TT Hoves';
     font-size: 16px;
     line-height: 18.85px;
-    text-align: center; 
+    text-align: center;
 }
+
 .popUpForm2 input {
     width: calc(6.7vw + 241px);
     height: 37px;
-    gap: 10px;        
-display: block;
-border:none;
-border-bottom: 1px solid #A1A1A185;  
+    gap: 10px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #A1A1A185;
 }
+
 .popUpForm2 label {
     display: block;
     margin-bottom: 20px;
-    text-align: center;   
+    text-align: center;
 }
 
 .close2 {
@@ -579,20 +587,21 @@ border-bottom: 1px solid #A1A1A185;
 }
 
 .send2 {
-font-family: 'TT Hoves';
-font-size: 18px;
-font-weight: 500;
-line-height: 21.2px;
-text-align: center;
-width: calc(6.7vw + 241px);
-height: 61px;
-padding: 20px;
-gap: 10px;
-border-radius: 12px;
-background-color: #6E3ABA;
-border: none;
-color: whitesmoke;
+    font-family: 'TT Hoves';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.2px;
+    text-align: center;
+    width: calc(6.7vw + 241px);
+    height: 61px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 12px;
+    background-color: #6E3ABA;
+    border: none;
+    color: whitesmoke;
 }
+
 /* конец PopUpFOrm2  */
 
 /* Список данных начало */
@@ -841,7 +850,7 @@ color: whitesmoke;
 
 .title_5 {
     font-family: 'TT Hoves';
-/*     font-size: calc(2.65vw + 24px); */
+    /*     font-size: calc(2.65vw + 24px); */
     font-weight: 500;
     line-height: 68.32px;
     letter-spacing: 0.01em;
@@ -902,14 +911,16 @@ color: whitesmoke;
     margin-top: calc(11vw + 18px);
     padding-left: calc(10.8vw - 17px);
 }
+
 .cup_wrapper h1 {
-font-family: 'TT Hoves';
-font-size: calc(2.65vw + 24px);
-font-weight: 500;
-line-height: 68.32px;
-letter-spacing: 0.01em;
-text-transform: uppercase;
+    font-family: 'TT Hoves';
+    font-size: calc(2.65vw + 24px);
+    font-weight: 500;
+    line-height: 68.32px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
 }
+
 .main_cup_container {
     margin-top: calc(5vw + 15px);
     display: flex;
@@ -917,24 +928,28 @@ text-transform: uppercase;
     flex-wrap: wrap;
     gap: calc(6.29vw + 16px);
 }
+
 .left_cup {
     width: calc(14.6vw + 272px);
     display: flex;
     flex-direction: column;
     gap: calc(2.2vw + 12px);
 }
+
 .left_cup img {
     width: 110px;
     height: 110px;
 }
+
 .left_cup span {
-width: calc(10.8vw + 287px);
-height: 114px;
-font-family: 'TT Hoves';
-font-size: calc(1vw + 20px);
-font-weight: 600;
-line-height: 37.8px;
+    width: calc(10.8vw + 287px);
+    height: 114px;
+    font-family: 'TT Hoves';
+    font-size: calc(1vw + 20px);
+    font-weight: 600;
+    line-height: 37.8px;
 }
+
 .right_cup {
     width: calc(14.6vw + 272px);
     display: flex;
@@ -942,22 +957,54 @@ line-height: 37.8px;
     flex-wrap: wrap;
     gap: 40px;
 }
-.students_1 {  
+
+.students_1 {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
+
 .students_1 h4 {
-font-family: 'TT Hoves';
-font-size: calc(2.65vw + 24px);
-font-weight: 700;
-line-height: 68.32px;
-letter-spacing: 0.01em;
+    font-family: 'TT Hoves';
+    font-size: calc(2.65vw + 24px);
+    font-weight: 700;
+    line-height: 68.32px;
+    letter-spacing: 0.01em;
 }
+
 .students_1 h5 {
-width: calc(14.6vw + 272px);
-font-family: 'TT Hoves';
-font-weight: 400;
-font-size: calc(1vw + 14px);
-line-height: 29.4px;
+    width: calc(14.6vw + 272px);
+    font-family: 'TT Hoves';
+    font-weight: 400;
+    font-size: calc(1vw + 14px);
+    line-height: 29.4px;
+}
+
+
+.side_1 {
+    font-family: 'TT Hoves';
+    font-size: calc(2.65vw + 24px);
+    font-weight: 500;
+    line-height: 68.32px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.side_2 {
+    margin-top: calc(1vw + 22.4px);
+    width: calc(46vw + 153px);
+    height: 76px;
+    top: 82px;
+    left: 120px;
+    font-family: 'TT Hoves';
+    font-size: calc(1vw + 14px);
+    font-weight: 400;
+    line-height: 37.8px;
+    text-align: left;
+}
+.splide__track {
+    margin-top: calc(1vw + 18px);
+}
+.slider_2_img {
+    width: calc(19vw + 253px);
 }

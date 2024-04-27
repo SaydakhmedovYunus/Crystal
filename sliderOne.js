@@ -6,7 +6,7 @@
                 perPage: 1,
             },
             1285: {
-                perPage: 4,
+                perPage: 3,
             },
         },
         // Default options
