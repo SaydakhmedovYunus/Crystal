@@ -3,7 +3,7 @@
 
 let now = new Date();// Текущая дата
 // console.log(now);
-let finish = date = new Date(2024, 3, 29, 18, 0, 0, 0,);
+let finish = date = new Date(2024, 4, 29, 18, 0, 0, 0,);
 // console.log(finish);
 let delta = Math.trunc((finish - now) / 1000)
 // console.log(delta)

@@ -1002,9 +1002,10 @@ p {
     line-height: 37.8px;
     text-align: left;
 }
-.splide__track {
-    margin-top: calc(1vw + 18px);
-}
+
 .slider_2_img {
     width: calc(19vw + 253px);
+}
+.splide__track {
+    margin-top: calc(1vw + 45px);
 }
